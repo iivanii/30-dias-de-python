@@ -37,6 +37,23 @@ print('Para un círculo cuyo radio es',radius_circle,'tiene como area',area_circ
 #8. Calculate the slope, x-intercept and y-intercept of y = 2x -2
 x= int(input('Dame "x": '))
 y= 2*x-2
-print('La pendiente cuando "x"','es',x,'es','y=',y)
+print('La pendiente cuando "x"','es',x,'en la ecuación "y=2*',x,'-2"','es',y)
 
 #9. Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
+import math
+x1=2
+x2=6
+y1=2
+y2=10
+slope= y2-y1/x2-x1
+print (slope)
+d= math.sqrt(((x2-x1)**2 + (y2-y1)**2))
+print (d)
+
+#10. Compare the slopes in tasks 8 and 9
+print('Primera pendiente: ',y)
+print('Segunda pendiente: ',m)
+
+#11. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0
+
+
