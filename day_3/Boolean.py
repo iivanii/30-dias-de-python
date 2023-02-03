@@ -46,14 +46,14 @@ x2=6
 y1=2
 y2=10
 slope= y2-y1/x2-x1
-print (slope)
+
 d= math.sqrt(((x2-x1)**2 + (y2-y1)**2))
-print (d)
+print ('La pendiente cuando "x1"=',x1,',','"x2"=',x2,',','"y1=',y1,'e "y2"=',y2,'es "m"=',y2-y1/x2-x1)
+print ('La distancia euclidea cuando "x1"=', x1,',','"x2"=',x2,',','"y1"=',y1,'e "y2"=',y2,'es "m"=',math.sqrt(((x2-x1)**2 + (y2-y1)**2)))
 
 #10. Compare the slopes in tasks 8 and 9
 print('Primera pendiente: ',y)
-print('Segunda pendiente: ',m)
+print('Segunda pendiente: ',d)
 
 #11. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0
-
 

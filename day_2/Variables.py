@@ -5,7 +5,7 @@ full_name = 'Iván Betanzos Soto'
 country = 'Sapin'
 city = 'Jerez de la Frontera'
 age = 16
-cear = 2022
+year = 2022
 is_married = False
 is_light_on = True
 hobbie, pet, favourite_sport = 'videogames', 'hamster', 'basketball'
@@ -13,12 +13,12 @@ hobbie, pet, favourite_sport = 'videogames', 'hamster', 'basketball'
 print (type(first_name))
 print (type(last_name))
 print (type(full_name))
-print (type(Country))
-print (type(City))
-print (type(Age))
-print (type(Year))
-print (type(Is_married))
-print (type(Is_light_on))
+print (type(country))
+print (type(city))
+print (type(age))
+print (type(year))
+print (type(is_married))
+print (type(is_light_on))
 print (type(hobbie))
 print (type(pet))
 print (type(favourite_sport))
@@ -38,15 +38,14 @@ floor_dision=(num_one//num_two)
 
 area_of_circle=(3.1416*30**2)
 circum_of_circle=(3.1416*60)
-input(3.1416*30**2)
+radius = int(input("Give me the radius of a circle: "))
+print ((3.1416*(30**2)))
 
-print(input(first_name, last_name, country, age))
+first_name = input ("What is your first name?")
+last_name = input ("What is your last name?")
+country = input ("Wich is your country?")
+age = input ("How old are you?")
 
-
-
-
-
-
-
+print ( "Hello, I'am", first_name, last_name, "I live in", country, "and I've", age)
 
 
