@@ -65,8 +65,3 @@ len_python=len('python')
 len_dragon=len('dragon')
 print (len_python)
 print(len_dragon)
-
-#13. Use and operator to check if 'on' is found in both 'python' and 'dragon'.
-print(list('python'))
-
-
