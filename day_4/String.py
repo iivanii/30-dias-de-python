@@ -56,10 +56,9 @@ replace=company.replace('Coding','Python')
 print(replace)
 
 #12. Change Python for Everyone to Python for All using the replace method or other methods.
-<<<<<<< HEAD
 replace_2=replace.replace('All','Everyone')
 print(replace_2)
-=======
+
 replace_2=replace.replace('All', 'Everyone')
 print(replace_2)
 
@@ -70,4 +69,14 @@ print(company.split())
 servicios_informáticos=['Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazon']
 print(servicios_informáticos)
 
->>>>>>> a5587a0a1f2a15c954bb9af577b02c4a0bb182d4
+#15. What is the character at index 0 in the string Coding For All.
+print (company[0])
+
+#16. What is the last index of the string Coding For All.
+print(company[-1])
+
+#17. What character is at index 10 in "Coding For All" string.
+print(company[10])
+
+#18. Create an acronym or an abbreviation for the name 'Python For Everyone'.
+
