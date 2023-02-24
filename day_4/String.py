@@ -79,4 +79,28 @@ print(company[-1])
 print(company[10])
 
 #18. Create an acronym or an abbreviation for the name 'Python For Everyone'.
-acronym=company
+PFE= 'Poding For Everyone'
+print (''.join(w[0] for w in PFE.split()))
+
+#19. Create an acronym or an abbreviation for the name 'Coding For All'.
+CFA= company
+print (('').join(w[0] for w in CFA.split()))
+
+#20. Use index to determine the position of the first occurrence of C in Coding For All.
+print(company.index('C'))
+
+#21. Use index to determine the position of the first occurrence of F in Coding For All.
+print(company.index('F'))
+
+#22. Use rfind to determine the position of the last occurrence of l in Coding For All People.
+print(company.rfind('l'))
+
+#23. Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+because='You cannot end a sentence with because because because is a conjunction'
+print(because.index('because'))
+
+#24. Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print(because.rindex('because'))
+
+#25. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print(because.replace(''), ('because because because'))
