@@ -26,7 +26,7 @@ print (23-10J)
 print ('computer')
 True # Is the dog sleep? If it is sleep, then value is true
 False # Is the dog sleep? If it is not sleep, then value is false
-print(type (['board', 'sun', 'Mexico']))
+print (type (['board', 'sun', 'Mexico']))
 print ('table', 'computer', 'mouse', 'pen') #things
 print ({1, 3, 16, 24, 6})
 
