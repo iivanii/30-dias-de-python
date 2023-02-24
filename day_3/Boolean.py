@@ -34,12 +34,12 @@ area_circle=pi*radius_circle**2
 circunference= 2*pi*radius_circle
 print('Para un círculo cuyo radio es',radius_circle,'tiene como area',area_circle,'y como circunferencia',circunference)
 
-#8. Calculate the slope, x-intercept and y-intercept of y = 2x -2
+#8. Calculate the slope, x-intercept and y-intercept of y = 2x -2.
 x= int(input('Dame "x": '))
 y= 2*x-2
 print('La pendiente cuando "x"','es',x,'en la ecuación "y=2*',x,'-2"','es',y)
 
-#9. Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
+#9. Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10).
 import math
 x1=2
 x2=6
@@ -51,10 +51,10 @@ d= math.sqrt(((x2-x1)**2 + (y2-y1)**2))
 print ('La pendiente cuando "x1"=',x1,',','"x2"=',x2,',','"y1=',y1,'e "y2"=',y2,'es "m"=',y2-y1/x2-x1)
 print ('La distancia euclidea cuando "x1"=', x1,',','"x2"=',x2,',','"y1"=',y1,'e "y2"=',y2,'es "m"=',math.sqrt(((x2-x1)**2 + (y2-y1)**2)))
 
-#10. Compare the slopes in tasks 8 and 9
+#10. Compare the slopes in tasks 8 and 9.
 y==d
 
-#11. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0
+#11. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
 value_x= -3
 print ('X=-3 para que y=0')
 value_y= value_x**2+6*value_x+9
@@ -64,4 +64,4 @@ value_y==0
 len_python=len('python')
 len_dragon=len('dragon')
 print (len_python)
-print(len_dragon)
+print (len_dragon)
