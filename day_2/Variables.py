@@ -46,6 +46,4 @@ last_name = input ("What is your last name?")
 country = input ("Wich is your country?")
 age = input ("How old are you?")
 
-print ( "Hello, I'am", first_name, last_name, "I live in", country, "and I've", age)
-
-
+print ( "Hello, I'am",first_name, last_name, "I live in", country, "and I've", age)
