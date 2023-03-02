@@ -103,7 +103,8 @@ print(because.index('because'))
 print(because.rindex('because'))
 
 #25. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-slice=because[31:54]
-print(slice)
+slice1=because[0:31]
+slice2=because[55:71]
+print(slice1+slice2)
 
 
