@@ -65,11 +65,38 @@ it_companies.reverse()
 print (it_companies)
 
 #18. Slice out the first 3 companies from the list
-print(it_companies[0:3])
+print (it_companies[0:3])
 
 #19. Slice out the last 3 companies from the list
 print(it_companies[0:6])
 
 #20. Slice out the middle IT company or companies from the list
+it_companies.pop(4)
 print(it_companies)
-print(it_companies[0:4][6:9])
+
+#21. Remove the first IT company from the list
+print(it_companies[1:7])
+
+#22. Remove the middle IT company or companies from the list
+it_companies.remove('Facebook')
+print(it_companies)
+
+#23. Remove the last IT company from the list
+it_companies.remove('Activision')
+print(it_companies)
+
+#24. Remove all IT companies from the list
+print(it_companies.clear())
+
+#25. Destroy the IT companies list
+del it_companies
+
+#26. Join the following lists:
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+
+#27. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
+Full=['Python', 'and SQL']
+front_end.extend(Full)
+front_end.extend(back_end)
+print('Full stack:', front_end)
