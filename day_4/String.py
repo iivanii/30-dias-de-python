@@ -79,7 +79,7 @@ print(company[-1])
 print(company[10])
 
 #18. Create an acronym or an abbreviation for the name 'Python For Everyone'.
-PFE= 'Poding For Everyone'
+PFE= 'Coding For Everyone'
 print (''.join(w[0] for w in PFE.split()))
 
 #19. Create an acronym or an abbreviation for the name 'Coding For All'.
@@ -106,5 +106,4 @@ print(because.rindex('because'))
 slice1=because[0:31]
 slice2=because[55:71]
 print(slice1+slice2)
-
 
